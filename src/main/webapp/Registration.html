@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>UserRegistration</title>
+</head>
+<body>
+<form action="register" method="post">
+<table>
+<tr><td>User Name</td>
+	<td><input type="text" name="userName" ></td>
+</tr>
+<tr><td>User Email</td><td><input type="email" name="userEmail"></td></tr>
+<tr><td>User Phone</td><td><input type="number" name="userNumber"></td></tr>
+<tr><td>Gender</td>
+	<td><input type="radio" name="gender" value="Male">Male</td>
+	<td><input type="radio" name="gender" value="Female">Female</td></tr>
+<tr><td>City</td> 	
+	<td><select name="city">
+	<option value="Hyderabad">Hyderabad</option>
+	<option value="Bangalore">Bangalore</option>
+	<option value="Delhi">Delhi</option>
+	<option value="Pune">Pune</option>
+	</select></td>
+</tr>
+<tr><td>Address</td>
+	<td><input type="text" name="address"></td>
+</tr>
+<tr><td>Hobbies</td>
+	<td><input type="checkbox" name="hobbies" value="sports">Sports</td>
+	<td><input type="checkbox" name="hobbies" value="music">Music</td>
+	<td><input type="checkbox" name="hobbies" value="Socializing">Socializing</td>
+	<td><input type="checkbox" name="hobbies" value="couchpotato">couchpotato</td>
+	</tr>
+<tr><td>Submit<input type="submit"></td></tr>
+</table>
+</form>
+</body>
+</html>
